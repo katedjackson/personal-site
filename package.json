@@ -1,0 +1,11 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Personal website with links to relevant projects and information/profiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}
