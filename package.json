@@ -2,10 +2,10 @@
   "name": "personal-site",
   "version": "1.0.0",
   "description": "Personal website with links to relevant projects and information/profiles.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "npm test",
-    "start": "npm run nodemon"
+    "start": "webpack -w & nodemon --watch server -e js,html server.js",
+    "test": ""
   },
   "author": "",
   "license": "ISC",
