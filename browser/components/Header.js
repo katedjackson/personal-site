@@ -1,20 +1,17 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
 
-export default function () {
+const Header = () => {
   return (
-    <div className="header-div">
-      <Row className="header">
-        <img id="headshot" src={"/public/personal-site-pic\ copy.jpg"}/>
-        <h1>Katelyn Jackson</h1>
-        <h3>Full Stack Developer</h3>
-        <h4>
-          <a href="">Resume</a>
-          <a href="">GitHub</a>
-          <a href="">LinkedIn</a>
-          <a href="">Twitter</a>
-        </h4>
-      </Row>
+    <div>
+      <div className="header-div">
+        <h1 className="header-tagline">Engineer. Teacher. Learner.</h1>
+      </div>
+      <div className="mission">
+        <p>Just a small town girl living in the big city, writing code and making exciting things with some amazing people.</p>
+      </div>
+      <hr/>
     </div>
   );
 }
+
+export default Header;

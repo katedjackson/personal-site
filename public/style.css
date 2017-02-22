@@ -1,37 +1,84 @@
-.container {
-  text-align: center;
-  margin: 10vh auto;
-}
-
-.header-div {
-  background-image: url(psbg.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
+body {
+  font-family: "Roboto", sans-serif;
   width: 100%;
 }
 
-.header {
+.container {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/*-----------NAVBAR--------------*/
+
+.nav-bar > nav{
+  background-color: white;
+  border-style: none;
+  margin: 3vh 3vh;
+}
+
+.navbar-brand {
+  color: #000000 !important;
+  font-size: 2em !important;
+}
+
+.navbar a {
+  font-size: 1.2em;
+}
+
+.navbar a:hover {
+  color: #000000 !important;
+}
+
+.navbar a:active {
+  color: #000000 !important;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/*-----------FOOTER--------------*/
+
+.footer hr {
+  margin: 0;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 3vh 5vh;
+}
+
+/*-----------HOMEPAGE--------------*/
+
+.header-div {
+  background-image: url(nyc.jpg);
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 90vh;
+  width: 100%;
+}
+
+.header-tagline {
   color: white;
-  padding: 10vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 40vh;
 }
 
-a {
-  margin: 5px;
-  color: white;
+.mission p {
+  font-size: 2em;
+  padding: 10vh 25vh;
 }
 
-a:hover {
-  text-decoration: none;
-  color: grey;
+hr {
+  margin: 0 15vh;
 }
 
-#headshot {
-  border-radius: 50%;
-  height: 25vh;
-  margin: 5vh auto;
-}
-
+/*-----------PORTFOLIO--------------*/
 .col .project-grid {
   background-color: grey;
 }

@@ -1,12 +1,18 @@
 import React from 'react';
-import Header from './Header';
-import ProjectGrid from './ProjectGrid';
+import NavBar from './NavBar';
+import Footer from './Footer';
+import Homepage from './Homepage';
 
-export default function () {
+const App = (props) => {
   return (
     <div className="container">
-      <Header />
-      <ProjectGrid />
+      <NavBar />
+      {
+        props.children && React.cloneElement(props.children, props)
+      }
+      <Footer />
     </div>
   );
 }
+
+export default App;
